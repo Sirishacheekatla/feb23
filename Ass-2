@@ -1,0 +1,17 @@
+l=[]
+n=int(input('enter n '))
+for i in range(n):
+    s=int(input())
+    l.append(s)
+print(l)
+l2=[]
+for i in range(len(l)-1,-1,-1):
+    l2.append(l[i])
+print(l2)
+Output:
+enter n 3 
+12 
+13 
+14 
+[12, 13, 14] 
+[14, 13, 12]
